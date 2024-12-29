@@ -1,4 +1,4 @@
-import { Droplet, Bottle, Truck, Settings, Tool, MoreHorizontal } from "lucide-react";
+import { Droplet, Flask, Truck, Settings, Wrench, MoreHorizontal } from "lucide-react";
 import ServiceCard from "./ServiceCard";
 
 const services = [
@@ -11,7 +11,7 @@ const services = [
   {
     title: "Water Bottle",
     description: "Premium bottled water in various sizes for all occasions",
-    icon: Bottle,
+    icon: Flask,
     href: "/services/water-bottle",
   },
   {
@@ -29,7 +29,7 @@ const services = [
   {
     title: "Installation",
     description: "Expert installation of water systems and purifiers",
-    icon: Tool,
+    icon: Wrench,
     href: "/services/installation",
   },
   {
